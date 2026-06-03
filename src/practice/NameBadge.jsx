@@ -23,7 +23,8 @@ export default function NameBadge() {
         placeholder="Enter your JobTitle"
         value={jobTitle}
         onChange={(e) => setJobTitle(e.target.value)}
-        />
-      </div>
-  )
+      />
+    </div>
+  );
 }
+//
